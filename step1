@@ -1,0 +1,5 @@
+kubectl get pods
+kubectl get pod -o wide
+kubectl logs hello-world
+kubectl exec hello-world date
+kubectl delete pods hello-world
